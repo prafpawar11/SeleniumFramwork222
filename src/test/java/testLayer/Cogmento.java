@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -26,6 +27,16 @@ public class Cogmento {
 		driver.findElement(By.name("email")).sendKeys("prafulp1010@gmail.com");
 		driver.findElement(By.name("password")).sendKeys("Pr@ful0812");
 		driver.findElement(By.xpath("//div[text()='Login']")).click();
+	}
+
+	@Test(priority = 1)
+	public void validateContactPage() {
+		driver.findElement(By.xpath("//a[@href='/contacts']")).click();
+
+		String actualURl = driver.getCurrentUrl();
+
+		Assert.assertTrue(actualURl.contains("contact"));
+
 	}
 
 	@AfterTest
