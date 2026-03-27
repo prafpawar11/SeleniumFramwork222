@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-27T20:43:01 IST" name="Suite" finished-at="2026-03-27T20:43:10 IST" duration-ms="9798">
+  <suite started-at="2026-03-27T20:48:44 IST" name="Suite" finished-at="2026-03-27T20:48:55 IST" duration-ms="11196">
     <groups>
     </groups>
-    <test started-at="2026-03-27T20:43:01 IST" name="Test" finished-at="2026-03-27T20:43:10 IST" duration-ms="9798">
+    <test started-at="2026-03-27T20:48:44 IST" name="Test" finished-at="2026-03-27T20:48:55 IST" duration-ms="11196">
       <class name="testLayer.Cogmento">
-        <test-method is-config="true" signature="openaUrl()[pri:0, instance:testLayer.Cogmento@f5ac9e4]" started-at="2026-03-27T20:43:01 IST" name="openaUrl" finished-at="2026-03-27T20:43:07 IST" duration-ms="6225" status="PASS">
+        <test-method is-config="true" signature="openaUrl()[pri:0, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:44 IST" name="openaUrl" finished-at="2026-03-27T20:48:51 IST" duration-ms="7197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openaUrl -->
-        <test-method signature="loginFunctionality()[pri:0, instance:testLayer.Cogmento@f5ac9e4]" started-at="2026-03-27T20:43:07 IST" name="loginFunctionality" finished-at="2026-03-27T20:43:08 IST" duration-ms="898" status="PASS">
+        <test-method signature="loginFunctionality()[pri:0, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:51 IST" name="loginFunctionality" finished-at="2026-03-27T20:48:52 IST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method signature="validateContactPage()[pri:1, instance:testLayer.Cogmento@f5ac9e4]" started-at="2026-03-27T20:43:08 IST" name="validateContactPage" finished-at="2026-03-27T20:43:10 IST" duration-ms="2045" status="PASS">
+        <test-method signature="validateContactPage()[pri:1, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:52 IST" name="validateContactPage" finished-at="2026-03-27T20:48:54 IST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactPage -->
-        <test-method signature="validateCreatePageOnContactPage()[pri:2, instance:testLayer.Cogmento@f5ac9e4]" started-at="2026-03-27T20:43:10 IST" name="validateCreatePageOnContactPage" finished-at="2026-03-27T20:43:10 IST" duration-ms="205" status="PASS">
+        <test-method signature="validateCreatePageOnContactPage()[pri:2, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:54 IST" name="validateCreatePageOnContactPage" finished-at="2026-03-27T20:48:54 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatePageOnContactPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.Cogmento@f5ac9e4]" started-at="2026-03-27T20:43:10 IST" name="tearDown" finished-at="2026-03-27T20:43:10 IST" duration-ms="292" status="PASS">
+        <test-method signature="createContact()[pri:3, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:54 IST" name="createContact" finished-at="2026-03-27T20:48:54 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.Cogmento@123ef382]" started-at="2026-03-27T20:48:54 IST" name="tearDown" finished-at="2026-03-27T20:48:55 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
