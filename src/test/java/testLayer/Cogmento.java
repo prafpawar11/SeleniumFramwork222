@@ -39,6 +39,12 @@ public class Cogmento {
 
 	}
 
+	@Test(priority = 2)
+	public void validateCreatePageOnContactPage() {
+		driver.findElement(By.xpath("//a[@href='/contacts/new']")).click();
+
+	}
+
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
