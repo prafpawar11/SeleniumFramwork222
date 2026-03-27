@@ -45,6 +45,12 @@ public class Cogmento {
 
 	}
 
+	@Test(priority = 3)
+	public void createContact() {
+		driver.findElement(By.name("first_name")).sendKeys("Suraj");
+		;
+	}
+
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
